@@ -1,5 +1,6 @@
 # practice
-这是一个自动化运维的练习监控脚本，考虑到exporter多的场景（如有上百个exporter时），在prometheus.yaml一个一个配置会显得很乱，于是就写了这个使用consul注册exporter的脚本
+这是一个自动化运维的练习监控脚本，考虑到exporter多的场景（如有上百个exporter时），在prometheus.yaml一个一个配置会显得很乱，于是就写了这个使用consul注册exporter的脚本。
+简要解释：脚本以model下的一个模型为例，init初始化操作后会批量生成监控的所有目录。
 所用到的工具有
 1.redis_exporter  (这里用redis只是为了测试)
 2.redis 6节点
