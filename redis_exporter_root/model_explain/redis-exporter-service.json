@@ -1,0 +1,15 @@
+{
+  "ID": "redis-exporter-192.168.152.110-9201",
+  "Name": "redis-exporter",
+  "Address": "192.168.152.110",
+  "Port": 9201,
+  "Meta": {
+    "region": "shanghai",
+    "cluster": "cluster-1"
+  },
+  "Check": {
+    "HTTP": "http://192.168.152.110:9201/health",
+    "Interval": "10s",
+    "Timeout": "5s"  
+  }
+}

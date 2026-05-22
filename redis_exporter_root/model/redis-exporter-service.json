@@ -1,0 +1,15 @@
+{
+  "ID": "SERVICE-192.168.152.110-EXPORTER_PORT",
+  "Name": "SERVICE",
+  "Address": "192.168.152.110",
+  "Port": EXPORTER_PORT,
+  "Meta": {
+    "region": "REGION",
+    "cluster": "CLUSTER"
+  },
+  "Check": {
+    "HTTP": "http://192.168.152.110:EXPORTER_PORT/health",
+    "Interval": "10s",
+    "Timeout": "5s"  
+  }
+}

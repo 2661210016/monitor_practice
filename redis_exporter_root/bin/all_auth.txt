@@ -1,0 +1,6 @@
+192.168.152.10  6379     redis-exporter  shanghai   cluster-1
+192.168.152.20  6379     redis-exporter  shanghai   cluster-2
+192.168.152.30  6379     redis-exporter    shanghai   cluster-3
+192.168.152.40  6379      redis-exporter  shanghai   cluster-4
+192.168.152.50  6379     redis-exporter  shanghai   cluster-5
+192.168.152.60  6379     redis-exporter  shanghai    cluster-6

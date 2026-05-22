@@ -1,0 +1,6 @@
+[redis]
+ip=192.168.152.50
+redis_port=6379
+exporter_port=22004
+
+service=redis-exporter

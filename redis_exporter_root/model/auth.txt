@@ -1,0 +1,6 @@
+[redis]
+ip=IP
+redis_port=REDIS_PORT
+exporter_port=EXPORTER_PORT
+
+service=SERVICE
